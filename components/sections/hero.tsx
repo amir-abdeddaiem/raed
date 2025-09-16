@@ -10,6 +10,9 @@ export function Hero() {
   const scrollToAbout = () => {
     document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })
   }
+  const scrollToContact = () => {
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })
+  }
 
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-muted overflow-hidden">
@@ -48,18 +51,21 @@ export function Hero() {
           <div
             className={`mt-10 flex items-center justify-center gap-x-6 animate-fade-in-up delay-800 ${isRTL ? "flex-row-reverse" : ""}`}
           >
-            <Button size="lg" className="group hover:scale-105 transition-all duration-300 hover:shadow-lg">
+
+            <Button size="lg" onClick={scrollToContact} className="group hover:scale-105 transition-all duration-300 hover:shadow-lg" >
               <Mail className={`h-4 w-4 group-hover:scale-110 transition-transform ${isRTL ? "ml-2" : "mr-2"}`} />
               {t.hero.getInTouch}
             </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="group bg-transparent hover:scale-105 transition-all duration-300 hover:shadow-lg"
-            >
-              <Download className={`h-4 w-4 group-hover:scale-110 transition-transform ${isRTL ? "ml-2" : "mr-2"}`} />
-              {t.hero.downloadCV}
-            </Button>
+            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="outline"
+                size="lg"
+                className="group bg-transparent hover:scale-105 transition-all duration-300 hover:shadow-lg"
+              >
+                <Download className={`h-4 w-4 group-hover:scale-110 transition-transform ${isRTL ? "ml-2" : "mr-2"}`} />
+                {t.hero.downloadCV}
+              </Button>
+            </a>
           </div>
 
           <div className="mt-16 animate-fade-in-up delay-1000">

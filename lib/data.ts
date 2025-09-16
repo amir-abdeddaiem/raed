@@ -52,7 +52,7 @@ export const certifications = [
   {
     title: "Communication Psychology",
     issuer: "ISIMS Innovators",
-    date: "May 18, 2025",
+    date: "december,18 2024",
   },
   {
     title: "Public Speaking",

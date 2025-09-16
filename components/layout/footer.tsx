@@ -1,6 +1,6 @@
 "use client"
 
-import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react"
+import { Mail, Phone, MapPin, Linkedin, Facebook } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 import { personalInfo } from "@/lib/data"
 
@@ -38,13 +38,14 @@ export function Footer() {
             <h3 className="text-lg font-semibold text-foreground mb-4">{t.footer.connect}</h3>
             <div className={`flex space-x-4 ${isRTL ? "flex-row-reverse space-x-reverse" : ""}`}>
               <a
-                href="https://github.com"
+                href="https://www.facebook.com/raed.trabelssi.11"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                <Github className="h-5 w-5" />
+                <Facebook className="h-5 w-5" />
               </a>
+
               <a
                 href="https://linkedin.com"
                 target="_blank"
@@ -54,11 +55,17 @@ export function Footer() {
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
+
           </div>
+
         </div>
+
 
         <div className="mt-8 pt-8 border-t border-border">
           <p className="text-center text-sm text-muted-foreground">{t.footer.rights}</p>
+          <a href="https://amir-abdeddaiem.vercel.app/">
+            <p className="text-center text-sm text-muted-foreground">{t.footer.amir}</p>
+          </a>
         </div>
       </div>
     </footer>

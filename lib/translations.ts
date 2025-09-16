@@ -137,6 +137,7 @@ export interface Translations {
     contactInfo: string
     connect: string
     rights: string
+    amir:string
   }
 }
 
@@ -154,7 +155,7 @@ export const translations: Record<Language, Translations> = {
       title: "Raed Trabelsi",
       subtitle: "Commerce & Distribution Professional",
       profile:
-        "Young graduate in Commerce & Distribution, passionate about sales strategies, customer relationship management and commercial logistics. Motivated, dynamic and ready to contribute to the commercial development of an innovative company.",
+        "Young graduate in Commerce & Distribution, passionate about sales strategies, Motivated and dynamic.",
       getInTouch: "Get In Touch",
       downloadCV: "Download CV",
       learnMore: "Learn more about me",
@@ -186,7 +187,7 @@ export const translations: Record<Language, Translations> = {
       positions: {
         internship1: {
           title: "End of Study Internship",
-          company: "ChahiaFÉV",
+          company: "Chahia",
           description: [
             "Evaluation of purchase barriers for CHAHIYA's SALAMI product.",
             "Collaboration with the team to optimize commercial processes and identify improvement opportunities.",
@@ -216,7 +217,7 @@ export const translations: Record<Language, Translations> = {
       items: {
         cert1: "Communication Psychology",
         cert2: "Public Speaking",
-        cert3: "Personal Development and Environment",
+        cert3: "Personal Development and Entrepreneurship",
         cert4: "Personal Development and Entrepreneurship",
       },
     },
@@ -282,6 +283,7 @@ export const translations: Record<Language, Translations> = {
       contactInfo: "Contact Info",
       connect: "Connect",
       rights: "© 2025 Raed Trabelsi. All rights reserved.",
+      amir:"Developed with ❤️ by Amir Abdeddaiem",
     },
   },
   fr: {
@@ -297,7 +299,7 @@ export const translations: Record<Language, Translations> = {
       title: "Raed Trabelsi",
       subtitle: "Professionnel Commerce & Distribution",
       profile:
-        "Jeune diplômé en Commerce & Distribution, passionné par les stratégies de vente, la gestion de la relation client et la logistique commerciale. Motivé, dynamique et prêt à contribuer au développement commercial d'une entreprise innovante.",
+        "Jeune diplômé en Commerce & Distribution, passionné par les stratégies de vente, la gestion de la relation client, Motivé et dynamique.",
       getInTouch: "Me Contacter",
       downloadCV: "Télécharger CV",
       learnMore: "En savoir plus sur moi",
@@ -330,7 +332,7 @@ export const translations: Record<Language, Translations> = {
       positions: {
         internship1: {
           title: "Stage de Fin d'Étude",
-          company: "ChahiaFÉV",
+          company: "Chahia",
           description: [
             "Évaluation des freins à l'achat du produit SALAMI de CHAHIYA.",
             "Collaboration avec l'équipe pour optimiser les processus commerciaux et identifier des opportunités d'amélioration.",
@@ -360,7 +362,7 @@ export const translations: Record<Language, Translations> = {
       items: {
         cert1: "Psychologie de la communication",
         cert2: "Prise de parole en public",
-        cert3: "Développement personnel et environnement",
+        cert3: "Développement personnel et entrepreneuriat",
         cert4: "Développement personnel et entrepreneuriat",
       },
     },
@@ -426,6 +428,7 @@ export const translations: Record<Language, Translations> = {
       contactInfo: "Infos Contact",
       connect: "Se Connecter",
       rights: "© 2025 Raed Trabelsi. Tous droits réservés.",
+      amir:"Développé avec ❤️ par Amir Abdeddaiem",
     },
   },
   ar: {
@@ -500,7 +503,7 @@ export const translations: Record<Language, Translations> = {
       items: {
         cert1: "علم نفس التواصل",
         cert2: "الخطابة العامة",
-        cert3: "التنمية الشخصية والبيئة",
+        cert3: "التنمية الشخصية وريادة الأعمال",
         cert4: "التنمية الشخصية وريادة الأعمال",
       },
     },
@@ -564,6 +567,7 @@ export const translations: Record<Language, Translations> = {
       contactInfo: "معلومات الاتصال",
       connect: "تواصل",
       rights: "© 2025 رائد الطرابلسي. جميع الحقوق محفوظة.",
+      amir:"تم التطوير بـ ❤️ بواسطة أمير عبد الدايم",
     },
   },
 }
