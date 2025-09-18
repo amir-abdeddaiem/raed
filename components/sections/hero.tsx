@@ -24,20 +24,7 @@ export function Hero() {
 
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
         <div className="text-center">
-          <div className="mb-8 animate-fade-in">
-            <div className="relative mx-auto h-48 w-48 mb-8 group">
-              {/* Background pulse ring */}
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary to-secondary opacity-20 animate-pulse group-hover:opacity-30 transition-opacity duration-300" />
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary to-secondary opacity-10 animate-ping" />
-
-              {/* Profile Image */}
-              <img
-                src="/profile-photo.png"
-                alt={t.hero.title}
-                className="relative z-10 h-full w-full rounded-full object-cover border-4 border-primary/20 group-hover:border-primary/40 transition-all duration-300 group-hover:scale-105"
-              />
-            </div>
-          </div>
+          
 
 
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl text-balance animate-fade-in-up delay-200">
